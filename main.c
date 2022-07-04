@@ -6,7 +6,7 @@ void merge(int arr[], int sol, int orta, int sag)//sol orta sag indisi
     int es1 = orta - sol + 1;//'es':eleman sayısı veya boyutu es1:sol taraf,es2:sağ taraf  dizileri
     int es2 =  sag - orta;
  
-    int L[es1], R[es2];
+    int L[es1], R[es2];//hakoo
  
     for (i = 0; i < es1; i++)//burda for döngüsü ile dizilere elemanları atıyoruz
         L[i] = arr[sol + i];
